@@ -10,7 +10,9 @@ const fs = require('fs');
 */
 
 const obj = {
-	home: path.join(path.resolve(__dirname, 'src/js'), 'index.js'),
+	index: path.join(path.resolve(__dirname, 'src/js'), 'index.js'),
+	aboutus: path.join(path.resolve(__dirname, 'src/js'), 'about.js'),
+	contactus: path.join(path.resolve(__dirname, 'src/js'), 'contact.js'),
 }
 
 module.exports = obj
